@@ -15,8 +15,12 @@ public class StudentController {
 
     //handler method to handle list students & return mode & view
     @GetMapping("/students")
-    public String listStudents(Model model){
+    public String students(Model model){
         model.addAttribute("students", studentService.getAllStudents());
         return "students";
     }
+//    @GetMapping("/")
+//    public String home(){
+//        return "welcome";
+//    }
 }
