@@ -3,6 +3,7 @@ package me.mdibrahim.UMS.Service.Impl;
 import me.mdibrahim.UMS.Repository.StudentRepository;
 import me.mdibrahim.UMS.Service.StudentService;
 import org.springframework.stereotype.Service;
+import me.mdibrahim.UMS.Entity.Student;
 
 import java.util.List;
 

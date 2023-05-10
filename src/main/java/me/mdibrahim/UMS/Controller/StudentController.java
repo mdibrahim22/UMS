@@ -19,8 +19,6 @@ public class StudentController {
         model.addAttribute("students", studentService.getAllStudents());
         return "students";
     }
-//    @GetMapping("/")
-//    public String home(){
-//        return "welcome";
-//    }
+
 }
+
